@@ -1,0 +1,375 @@
+#HEADER{
+
+background-color: antiquewhite;
+
+min-height: 500px;
+
+justify-content: center;
+background-size: cover;
+}
+
+
+
+#contenedor h1{
+
+    color:rgb(29, 28, 28);
+
+    font-size: 3.6;
+
+    text-align: center;
+
+}
+
+h2{
+
+font-size: 3;
+font-family: cursive;
+}
+
+h3{
+
+font-size: 2.6;
+
+
+}
+
+h4{
+
+
+font-size: 1.6;
+
+}
+
+.imgw{
+
+height: 10px;
+
+width: 5px;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 5px;
+
+
+}
+
+
+/**GLOBALES**/
+
+#contenedor{
+
+
+
+
+margin: 0 auto;
+
+padding-bottom: 1rem;
+
+max-width: 60rem;
+
+}
+
+
+
+
+#barra{
+
+
+
+justify-content:flex-end;
+
+padding-top: 3rem;
+
+align-items: flex-start;
+
+
+
+}
+#barra nav{
+
+float: right;
+
+}
+
+#contenedor img{
+
+float: left;
+
+
+}
+
+
+#seccion{
+
+    margin-top: 2rem;
+    
+    margin-bottom: 2rem;
+    
+    text-align: center;
+
+
+}
+
+
+
+
+
+img{
+
+max-width: 100%;
+
+
+}
+
+#BOD{
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    font-size: 1rem;
+    }
+
+    
+    .NAV {
+        color: red;
+        
+    
+    font-size: 2rem;
+    
+    }
+
+    .NAV a:hover{
+        
+        color:indigo;
+    
+    }
+
+    .NAV a:last-of-type{
+       
+    margin: 0;
+
+    }
+
+    .iconos-nosotros{
+
+
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .icono{
+
+        flex-basis:calc (10%-1rem);
+        text-align: center;
+        font-family: Lucida Grande;
+        /* border: 1px solid #b5b5b5;*/
+        background-color:lime;
+        padding: 0,5rem 1rem 0,5rem 1rem;
+        
+       
+    }
+
+    .icono H1{
+
+        color: blue;
+
+
+    }
+
+    .icono img{
+
+        width: 12rem;
+        height: 13rem;
+        margin-top: 10px;
+
+
+    }
+    .icono p{
+
+        margin: 0;
+
+    }
+    .icono h3{
+
+        text-transform: uppercase;
+        
+    }
+
+    .encabezado{
+
+    text-align: center;
+
+    font-weight: inheritS;
+
+    justify-content: center;
+
+    
+
+    }
+
+    .encabezado h2{
+
+        color: crimson;
+
+
+    }
+
+    
+
+        .secciones-icono{
+
+            flex-basis:calc (33.3%-1rem);
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 10px;
+        font-size: medium;
+        }
+
+        .icono img{
+            
+        width: 90%;
+
+
+
+
+        }
+
+        .secciones-icono p{
+
+            margin: auto;
+
+                   
+
+        }
+
+         .secciones-icono2{
+
+            width: 50%;
+            height: 60%;
+
+
+         }
+
+         .img1{
+
+
+           width: 40%;
+            height: 50%;
+            margin-top: auto;
+         }
+
+         .secciones-icono2-img2{
+
+
+            width: 35%;
+            height:40%;
+            margin-top: 146px;
+         }
+       .secciones-icono-candado img{
+
+
+            width: 28%;
+            justify-content: center;
+
+
+        }
+
+        .secciones-icono p{
+
+            
+            font-size: 11;
+
+        }
+        .testimoniales{
+
+            
+            background-color: greenyellow;
+           border-radius : 2rem;
+            padding : 2rem;
+            color : blue;
+            font-size: 1.7rem; 
+            border-right-width: 2rem;
+            
+            justify-content: center;
+
+            width: 29%;
+            
+        }
+
+        
+        .articulos{
+
+            
+            text-align: center;
+            font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+            border: 1px solid #b5b5b5;
+            background-color:rgb(32, 171, 252);
+            padding: 1rem 2rem 1rem 2rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        display: flex;
+
+        }
+
+        .articulos img{
+
+        background-image: url("https://articulo.mercadolibre.com.ar/MLA-875842252-pergolas-de-hierro-y-vidrio-x-m2-_JM?matt_tool=28447691&matt_word=&matt_source=google&matt_campaign_id=11615439258&matt_ad_group_id=114642691833&matt_match_type=&matt_network=g&matt_device=c&matt_creative=479788909186&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=284183221&matt_product_id=MLA875842252&matt_product_partition_id=498532807912&matt_target_id=pla-498532807912&gclid=Cj0KCQiA5vb-BRCRARIsAJBKc6LfUxZMIn8CQTj8zDiVGjXegRvhKSmR11k0q9NDgDJDRTPZ9lozRkEaAhaBEALw_wcB");
+
+            justify-content: center;
+
+            width: 13rem;
+            height: 13rem;
+            
+            margin-top: 28px;
+        }
+
+        .articulos .icono{
+
+            border: none;
+
+        }
+
+        
+        @media all and (max-width:600px){
+
+    
+
+            /*.Displeyflex{display:inline-block;}*/
+            .row{
+             flex-direction: column;
+            }
+        
+        /**
+            .art1{margin-left: 10% ;   
+              width: 80% ;
+              margin-right: 10% ; 
+          
+            }
+        
+            .art2{margin-left: 10%;   
+              width: 80% ;
+              margin-right: 10%; 
+          }
+        
+            .art3{
+              margin-bottom: 20px;
+              margin-left: 10% ;   
+              width: 80% ;
+              margin-right: 10% ; 
+          }**/
+            }
+        
+            @media all and (min-width:800px){
+        
+              
+              .HEADER {flex: 2 0 ;}
+              
+              .NAV{order: 1;}
+              
+              .art{order: 2;}
+              
+              .section{order: 3;}
+              
+              .section{order: 4;}
+            }

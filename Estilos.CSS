@@ -96,7 +96,9 @@ float: right;
 #contenedor img{
 
 float: left;
-
+-left: -5rem;
+height: 6rem;
+width: 6rem;
 
 }
 
@@ -118,7 +120,7 @@ float: left;
 
 img{
 
-max-width: 100%;
+max-width: 80%;
 
 
 }
@@ -172,7 +174,8 @@ max-width: 100%;
 
     .icono H1{
 
-        color: blue;
+        color:#b8980b;
+        
 
 
     }

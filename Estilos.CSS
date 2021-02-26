@@ -160,12 +160,12 @@ max-width: 100%;
 
     .icono{
 
-        flex-basis:calc (33%-1rem);
+        flex-basis:calc (10%-1rem);
         text-align: center;
         font-family: Lucida Grande;
         /* border: 1px solid #b5b5b5;*/
-        background-color:lime;
-        padding: 1rem 2rem 1rem 2rem;
+        background-color:#b8980b;
+        padding: 0,5rem 1rem 0,5rem 1rem;
         
        
     }
@@ -302,9 +302,9 @@ max-width: 100%;
 
             
             text-align: center;
-            font-family: 'Lucida Sans Unicode', 'Lucida Grande';
+            font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
             border: 1px solid #b5b5b5;
-            background-color:orange;
+            background-color:rgb(32, 171, 252);
             padding: 1rem 2rem 1rem 2rem;
             margin-left: 2rem;
             margin-right: 2rem;
